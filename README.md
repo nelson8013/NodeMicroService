@@ -17,4 +17,8 @@ A FEW THINGS TO CONSIDER
 
 5. Message durability: If you want the message to persist even if the RabbitMQ server crashes, you need to make sure the queue is declared as durable. This is optional
 
-Port configuration: Ensure that both services are running on different but correct ports and that there are no firewalls blocking the communication between the two services.
+6. Port configuration: Ensure that both services are running on different but correct ports and that there are no firewalls blocking the communication between the two services.
+
+RUN THE APP
+Service1: node index.js
+Service2: node index.js
