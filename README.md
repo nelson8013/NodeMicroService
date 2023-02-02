@@ -8,7 +8,7 @@ THE GOAL
 
 A FEW THINGS TO CONSIDER
 
-1. I have doceker running on my local machine.
+1. I have docker running on my local machine where i use to call the services. You have to spin up a docker container by executing the command "docker run --name rabbitmq -p 5672:5672 rabbitmq"
 2. Ensure The routing key: Ensure that both service 1 and service 2 are using the same routing key, i.e., "rabbit" in this case.
 
 3. Network connectivity: Ensure that both services are on the same network and can communicate with each other.
